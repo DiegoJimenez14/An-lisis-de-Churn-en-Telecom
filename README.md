@@ -23,3 +23,4 @@ Tras auditar la base de datos de clientes, se detectaron los siguientes patrones
 4. **Descarte de Precio:** El análisis financiero reveló que los clientes fugados de fibra pagaban en promedio **$5.81 USD menos** que los clientes leales. Esto sugiere que la fuga no es por sensibilidad al precio, sino por insatisfacción con la calidad del servicio.
 
 **Recomendación Preliminar:** Investigar urgentemente los tickets de soporte técnico en el segmento de Fibra Óptica para identificar fallas recurrentes.
+<img width="1256" height="746" alt="image" src="https://github.com/user-attachments/assets/8db587cc-2982-4295-91e0-62397645e70b" />
