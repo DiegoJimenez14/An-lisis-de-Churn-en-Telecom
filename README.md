@@ -1,26 +1,43 @@
-# Análisis de Retención de Clientes (Telco Churn)
+<div align="center">
 
-## 📌 Contexto del Proyecto
-En el competitivo sector de las telecomunicaciones, la retención de clientes es más rentable que la adquisición. Este proyecto analiza el comportamiento de los clientes para identificar patrones de deserción (Churn) y proponer estrategias de retención.
+# Telco Customer Churn Analysis
+### Estrategia de Retención basada en Datos
 
-## 🎯 Objetivos
-1. Identificar los factores clave que provocan la cancelación del servicio.
-2. Crear un dashboard interactivo para visualizar el riesgo de fuga.
-3. Proponer recomendaciones basadas en datos para reducir la tasa de churn.
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-## 🛠 Herramientas Utilizadas
-* **Excel:** Limpieza de datos y análisis exploratorio inicial.
-* **SQL:** Consultas para segmentación y validación de hipótesis.
-* **Power BI:** Visualización y Storytelling.
+</div>
 
-## 🔍 Hallazgos Clave del Análisis SQL
+---
 
-Tras auditar la base de datos de clientes, se detectaron los siguientes patrones críticos:
+## 💼 Business Case
 
-1. **Tasa de Fuga General:** El 26.5% de la base de clientes ha abandonado la compañía.
-2. **Foco Rojo en Fibra Óptica:** Los usuarios de Fibra Óptica presentan una tasa de deserción del **41.9%**, mucho mayor que la de DSL (19%).
-3. **Modalidad de Contrato:** El problema se concentra en contratos mensuales ("Month-to-month") con una fuga del **42.7%**.
-4. **Descarte de Precio:** El análisis financiero reveló que los clientes fugados de fibra pagaban en promedio **$5.81 USD menos** que los clientes leales. Esto sugiere que la fuga no es por sensibilidad al precio, sino por insatisfacción con la calidad del servicio.
+Una empresa de telecomunicaciones enfrenta una tasa de deserción (Churn) crítica del **26.5%**, impactando directamente en el *Revenue*. El objetivo de este proyecto no es solo predecir quién se va, sino diagnosticar la causa raíz técnica y comercial para frenar la fuga de capital.
+
+**Rol:** Analista de Datos & Estrategia  
+**Alcance:** Auditoría de Datos, Análisis SQL, Dashboard Ejecutivo.
+
+---
+
+## 🛠 Tech Stack & Metodología
+
+* **MySQL Workbench:** Ingesta de datos, validación de integridad (Data Quality) y segmentación avanzada con lógica de negocio.
+* **Power BI:** Modelado de datos (DAX Measures) y diseño de Dashboard interactivo para Storytelling.
+* **Microsoft Excel:** Limpieza preliminar y tratamiento de valores nulos (Data Cleaning).
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
+├── data/
+│   ├── Telco_Churn_Clean.csv    # Dataset procesado y limpio
+├── sql/
+│   ├── churn_analysis.sql       # Queries de segmentación y auditoría
+├── dashboard/
+│   ├── dashboard_churn.png      # Captura del reporte final
+└── README.md                    # Documentación del proyecto
 
 **Recomendación Preliminar:** Investigar urgentemente los tickets de soporte técnico en el segmento de Fibra Óptica para identificar fallas recurrentes.
 <img width="1256" height="746" alt="image" src="https://github.com/user-attachments/assets/8db587cc-2982-4295-91e0-62397645e70b" />
